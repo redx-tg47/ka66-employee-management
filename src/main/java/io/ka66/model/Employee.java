@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public class Employee {
 
-    private int id;
-    private String name;
-    private double salary;
-    private String department;
+    private Integer id;
+    private String name = null;
+    private Double salary = null;
+    private String department = null;
 }
